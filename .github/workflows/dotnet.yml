@@ -31,5 +31,6 @@ jobs:
     - name: Install Node.js dependencies
       run: npm install
     - name: Build Node.js front-end
+      run: npm run build 
   
   
