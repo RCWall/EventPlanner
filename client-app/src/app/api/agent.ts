@@ -12,7 +12,7 @@ const sleep = (delay: number) => {
 }
 
 // Sets the base URL for all Axios requests to the local server's API endpoint.
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = "http://evp-99-88-77.azurewebsites.net/api";
 
 // Interceptor for handling responses from Axios requests.
 axios.interceptors.response.use(async response => {
