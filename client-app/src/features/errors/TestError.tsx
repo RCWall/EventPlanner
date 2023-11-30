@@ -5,7 +5,7 @@ import ValidationError from "./ValidationError";
 import {useState} from "react";
 
 export default function TestErrors() {
-    const baseUrl = 'http://localhost:5000/api/'
+    const baseUrl = 'http://evp-99-88-77.azurewebsites.net/api/'
     const [errors, setErrors] = useState(null);
 
     function handleNotFound() {
