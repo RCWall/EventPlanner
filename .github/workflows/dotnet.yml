@@ -39,10 +39,7 @@ jobs:
       run: npm run build
       working-directory: client-app
     
-    - name: Start front end
-      run: npm start
-      working-directory: client-app
-    
+   
 
 
 
