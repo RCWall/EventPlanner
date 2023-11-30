@@ -25,6 +25,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
 
+
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
@@ -37,5 +38,10 @@ jobs:
     - name: Build Node.js front-end
       run: npm run build
       working-directory: client-app
-  
+    
+   
+
+
+
+     
   
